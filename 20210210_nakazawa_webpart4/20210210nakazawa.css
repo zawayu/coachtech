@@ -1,0 +1,446 @@
+@charset "utf-8";
+
+/* リセットcss */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/*リセットcss終了*/
+
+.header {
+    height: 70px;
+    background: #000;
+    text-decoration: none;
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 35px;
+    color: #f2f2f2;
+    line-height: 70px;
+}
+
+.header-nav ul{
+    display: flex;
+}
+
+.header-nav li{
+    margin-right: 35px;
+    font-size: 16px;
+}
+
+.header-nav a{
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+#eyecatch {
+    height: 600px;
+    background: url(../20210210_nakazawa_webpart4/img_enshu/eyecatch.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#eyecatch h1{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    line-height: 1;
+}
+
+.news {
+    width: 15%;
+    height: 5%;
+    background: #000;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+}
+.news p{
+    color: #f2f2f2;
+    text-align: center;
+    margin: 2%;
+}
+
+.news1 {
+    width: 35%;
+    height: 5%;
+    background: white;
+    position: absolute;
+    right: 15%;
+    bottom: 0%;
+}
+.news1 p{
+    color: black;
+    text-align: center;
+    font-size: 1px;
+    margin: 2%;
+}
+
+
+
+#about {
+    background: #000;
+    height: 300px;
+    background-size: cover;
+}
+
+
+.text-title {
+    font-size: 18px;
+    padding-top: 10%;
+    padding-left: 20%;
+    color: white;
+}
+
+.section {
+    padding-top: 3%;
+    padding-left: 20%;
+}
+
+#about p{
+    font-size: 12px;
+    color: white;
+}
+
+.button {
+    margin-top: 3%;
+    margin-left: 20%;
+}
+
+.text {
+    position: absolute;
+    z-index: 2;
+}
+
+.section-img img{
+    position: absolute;
+    width: 40%;
+    top: 90%;
+    left: 60%;
+    z-index: 1;
+}
+
+.yohaku {
+    background: white;
+    height: 150px;
+}
+
+#service {
+    background: #f2f2f2;
+    height: 1200px;
+    position: relative;
+}
+
+.section-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.service-right{
+    width: 45%;
+}
+
+.service-right img{
+    display: block;
+    width: 45%;
+    position: absolute;
+    right: 0%;
+}
+
+.service-left h3,
+.service-left p {
+  margin-bottom: 15px;
+  font-size: 11px;
+}
+
+.service-left{
+    width: 40%;
+    background: white;
+    height: 130px;
+    padding: 3%;
+    position: absolute;
+    left: 20%;
+}
+
+
+.service-right2{
+    width: 45%;
+}
+
+.service-right2 img{
+    display: block;
+    width: 45%;
+    position: absolute;
+    left: 0%;
+    top: 55%;
+}
+
+.service-left2 h3,
+.service-left2 p {
+  margin-bottom: 15px;
+  font-size: 11px;
+}
+
+.service-left2{
+    width: 40%;
+    background: white;
+    height: 130px;
+    padding: 3%;
+    position: absolute;
+    left: 20%;
+    top: 56%;
+}
+
+.parent {
+    background: white;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.child1 {
+    color: white;
+    background: url(../20210210_nakazawa_webpart4/img_enshu/company.jpeg) no-repeat;
+    background-size: cover;
+    width: 45%;
+    height: 20%;
+    position: absolute;
+    margin-top: 5%;
+}
+
+
+
+.p1{
+    text-align: center;
+    font-size: 20px;
+    margin: 5%;
+}
+.p2{
+    text-align: center;
+    font-size: 12px;
+}
+
+.child2 {
+    color: white;
+    background: url(../20210210_nakazawa_webpart4/img_enshu/recruit.jpg) no-repeat;
+    background-size: cover;
+    width: 45%;
+    right: 0%;
+    height: 20%;
+    position: absolute;
+    margin-top: 5%;
+}
+
+.faq{
+    width: 70%;
+    background: #000;
+    height: 100px;
+    color: #f2f2f2;
+    position: relative;
+    left: 15%;
+    top: 40%;
+}
+
+.p3{
+    position: absolute;
+    left: 5%;
+    top: 50%;
+}
+
+.p4{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+#contact {
+    height: 600px;
+    background: url(../20210210_nakazawa_webpart4/img_enshu/contact-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+#contact h2{
+    font-size: 27px;
+    padding-top: 20%;
+}
+
+#contact h3{
+    font-size: 16px;
+    padding-top: 1%;
+}
+
+#contact h1{
+    font-size: 30px;
+    padding-top: 5%;
+}
+
+#contact p{
+    font-size: 10px;
+    padding-top: 5%;
+}
+
+.button-submit {
+    text-align: center;
+}
+  
+.button {
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    margin: 30px 0;
+    border: solid 1px white;/*線*/
+    border-radius: 10px;/*角の丸み*/
+}
+
+
+.footer {
+    height: 120px;
+    background: black;
+    text-decoration: none;
+}
+
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 35px;
+    color: #f2f2f2;
+    line-height: 70px;
+}
+
+.footer-nav ul{
+    display: flex;
+}
+
+.footer-nav li{
+    margin-right: 35px;
+    font-size: 12px;
+}
+
+.footer-nav a{
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+#footer {
+    color: white;
+    text-align: center;
+    line-height: 10px;
+    font-size: 11px;
+}
