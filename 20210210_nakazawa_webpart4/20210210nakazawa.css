@@ -227,9 +227,10 @@ input, select {
     height: 150px;
 }
 
+
 #service {
     background: #f2f2f2;
-    height: 1200px;
+    height: 800px;
     position: relative;
 }
 
@@ -240,16 +241,24 @@ input, select {
     text-align: center;
 }
 
-.service-right{
-    width: 45%;
+.service-wrap{
+    position: relative;
+    height: 400px;
+    background: #ff9;
 }
+
+.service-right{
+    position: relative;
+}
+
 
 .service-right img{
     display: block;
     width: 45%;
-    position: absolute;
-    right: 0%;
-    top: 5%;
+    /*position: absolute;*/
+    margin-left: auto;
+    /*right: 0%;
+    top: 5%;*/
 }
 
 .service-left h3,
@@ -259,25 +268,29 @@ input, select {
 }
 
 .service-left{
+    /*display: block;*/
     width: 40%;
     background: white;
     height: 130px;
     padding: 3%;
     position: absolute;
     left: 20%;
-    top: 7%;
+    /*top: 7%;*/
+    
 }
 
 
 .service-right2{
-    width: 45%;
+    position: relative;
 }
+
 
 .service-right2 img{
     display: block;
     width: 45%;
-    position: absolute;
-    left: 0%;
+    /*position: absolute;*/
+    margin-right: auto;
+    /*left: 0%;*/
     top: 45%;
 }
 
@@ -294,7 +307,7 @@ input, select {
     padding: 3%;
     position: absolute;
     left: 20%;
-    top: 47%;
+    /*margin: 0 auto;*/
 }
 
 .parent {
@@ -361,18 +374,42 @@ input, select {
 }
 
 #contact {
-    height: auto;
+    height: 500px;
     background: url(../20210210_nakazawa_webpart4/img_enshu/contact-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    /*position: relative;*/
-    color: white;
+    position: relative;
     text-align: center;
 }
 
+
+.contact-text {
+    position: absolute;
+    color: white;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit- transform: translateY(-50%) translateX(-50%);
+}
+/*
+#eyecatch h1{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    transform: translate(50%, -50%);
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    line-height: 1;
+}
+*/
+
+
 #contact h2{
     font-size: 27px;
-    padding-top: 10%;
+    /*padding-top: 10%;*/
 }
 
 #contact h3{
