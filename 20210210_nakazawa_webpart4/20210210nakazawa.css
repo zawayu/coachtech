@@ -220,7 +220,7 @@ input, select {
 .text {
     position: relative;
     z-index: 2;
-    left: 20%;
+    margin-left: 20%;
 }
 
 .section-img img{
