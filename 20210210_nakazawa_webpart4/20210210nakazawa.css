@@ -350,6 +350,12 @@ input, select {
 .parent {
     background: white;
     height: 700px;
+    /*display: flex;
+    justify-content: space-between;
+    position: relative;*/
+}
+
+.parent-info{
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -367,33 +373,37 @@ input, select {
     /*display: block;*/
 }
 
+.child2 {
+    color: white;
+    background: url(../20210210_nakazawa_webpart4/img_enshu/recruit.jpg) no-repeat;
+    background-size: cover;
+    width: 45%;
+    height: 25%;
+    position: absolute;
+    right: 0%;
+    /*position: relative;*/
+    margin-top: 10%;
+}
 
+.p-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+}
 
 .p1{
     text-align: center;
     font-size: 20px;
-    /*margin: 5%;*/
-    margin-top: 20%;
-    /*transform: translateY(-50%) translateX(-50%);
-    -webkit- transform: translateY(-50%) translateX(-50%);*/
 }
+
 .p2{
     text-align: center;
     font-size: 12px;
     margin-top: 1%;
 }
 
-.child2 {
-    color: white;
-    background: url(../20210210_nakazawa_webpart4/img_enshu/recruit.jpg) no-repeat;
-    background-size: cover;
-    width: 45%;
-    right: 0%;
-    height: 25%;
-    position: absolute;
-    /*position: relative;*/
-    margin-top: 10%;
-}
 
 .faq{
     width: 75%;
@@ -417,6 +427,7 @@ input, select {
     top: 45%;
     left: 42.5%;
 }
+*/
 
 #contact {
     height: 500px;
