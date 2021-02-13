@@ -257,8 +257,7 @@ input, select {
     width: 45%;
     /*position: absolute;*/
     margin-left: auto;
-    /*right: 0%;
-    top: 5%;*/
+    /*right: 0%;*/
 }
 
 .service-left h3,
@@ -274,10 +273,21 @@ input, select {
     height: 130px;
     padding: 3%;
     position: absolute;
-    left: 20%;
-    /*top: 7%;*/
-    
+    /*left: 20%;
+    top: 7%;*/
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit- transform: translateY(-50%) translateX(-50%);
 }
+
+
+.service-wrap2{
+    position: relative;
+    height: 400px;
+    background: aqua;
+}
+    
 
 
 .service-right2{
@@ -306,8 +316,12 @@ input, select {
     height: 130px;
     padding: 3%;
     position: absolute;
-    left: 20%;
-    /*margin: 0 auto;*/
+    /*left: 20%;
+    margin: 0 auto;*/
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit- transform: translateY(-50%) translateX(-50%);
 }
 
 .parent {
@@ -392,20 +406,6 @@ input, select {
     transform: translateY(-50%) translateX(-50%);
     -webkit- transform: translateY(-50%) translateX(-50%);
 }
-/*
-#eyecatch h1{
-    position: absolute;
-    top: 60%;
-    left: 40%;
-    transform: translate(50%, -50%);
-    font-size: 30px;
-    font-style: italic;
-    font-weight: bold;
-    color: white;
-    line-height: 1;
-}
-*/
-
 
 #contact h2{
     font-size: 27px;
