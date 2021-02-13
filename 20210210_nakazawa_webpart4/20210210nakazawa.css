@@ -175,7 +175,8 @@ input, select {
 }
 .news1 p{
     color: black;
-    text-align: center;
+    /*text-align: center;*/
+    text-align: left;
     font-size: 1px;
     margin: 2%;
 }
@@ -208,6 +209,12 @@ input, select {
     left: 0%; 
 }
 */
+#about button{
+    background: white;
+    color: black;
+    border: solid 3px;
+}
+
 .text {
     position: relative;
     z-index: 2;
@@ -244,7 +251,7 @@ input, select {
 .service-wrap{
     position: relative;
     height: 400px;
-    background: #ff9;
+    /*background: #ff9;*/
 }
 
 .service-right{
@@ -285,7 +292,7 @@ input, select {
 .service-wrap2{
     position: relative;
     height: 400px;
-    background: aqua;
+    /*background: aqua;*/
 }
     
 
@@ -322,6 +329,17 @@ input, select {
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
     -webkit- transform: translateY(-50%) translateX(-50%);
+}
+
+.text1-button-submit{
+    
+}
+
+.text1-button{
+    display: block;
+    background: white;
+    border: solid 1px;
+    margin-left: auto;
 }
 
 .parent {
@@ -431,13 +449,14 @@ input, select {
     text-align: center;
 }
   
-.button {
+#contact .button {
     padding: 10px 30px;
-    background-color: black;
+    background-color: transparent;
     color: white;
     margin: 30px 0;
     border: solid 1px white;/*線*/
-    border-radius: 10px;/*角の丸み*/
+    font-size: 6px;
+    /*border-radius: 10px;/*角の丸み*/
 }
 
 
