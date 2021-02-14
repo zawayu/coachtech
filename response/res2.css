@@ -566,6 +566,7 @@ body {
     }
 
     .service-content_inner {
+        position: static;
         left: 5%;
         width: 90%;
         margin: 0 auto;
