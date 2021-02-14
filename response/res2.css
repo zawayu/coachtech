@@ -318,7 +318,7 @@ body {
 .mission-content {
   padding: 10% 0 10% 20%;
   box-sizing: border-box;
-  width: 70%;
+  width: 80%;
 }
 
 .mission_title,
@@ -537,6 +537,9 @@ body {
         display: none; /* デスクトップのナビを消す */
     }
     
+    /*------------------------*/
+    /*         catchcopy      */
+    /*------------------------*/
 
     .catchcopy {
         position: absolute;
@@ -549,7 +552,10 @@ body {
         line-height: 1;
         /*追加*/
         width: 70%;
+    }
 
+    .news {
+        width: 100%;
     }
 
     /*------------------------*/
