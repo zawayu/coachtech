@@ -546,34 +546,4 @@ a{
 
 
 
-/*レスポンシブ対応*/
-@media screen and (max-width: 768px) {
-
-    .service-wrap{
-        flex-wrap: wrap;
-    }
-
-    .service-right,
-    .service-left {
-        width: 80%;
-    }
-
-    .service-wrap2{
-        flex-wrap: wrap;
-    }
-
-    .service-right2,
-    .service-left2 {
-        width: 80%;
-    }
-
-    .parent-info{
-        flex-wrap: wrap;
-    }
-
-    .child1,
-    .child2 {
-        width: 80%;
-    }
- }
 
