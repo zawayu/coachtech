@@ -306,7 +306,7 @@ body {
 
 
 #firstview {
-  height: 100%;
+  height: 40%;
   background: url(../コーポレートサイト/img/mv.png) no-repeat;
   background-size: cover;
   background-position: center;
@@ -318,7 +318,7 @@ body {
    position: absolute;
    /*top: 60%;
    left: 10%;*/
-   font-size: 45px;
+   font-size: 35px;
    font-style: italic;
    font-weight: bold;
    color: #fff;
@@ -347,38 +347,6 @@ body {
     -webkit- transform: translateY(-50%) translateX(-50%);
 }
 
-
-/*------------------------*/
-/*         news           */
-/*------------------------*/
-/*
-.news {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 50%;
-}
-.news-content {
-  background: #fff;
-  width: 80%;
-  height: 70px;
-}
-
-.news_date {
-  padding-left: 5px;
-}
-
-.news_title {
-  padding: 0 15px;
-}
-.news-icon {
-  background: #000;
-  width: 20%;
-  height: 70px;
-  line-height: 70px;
-  text-align: center;
-  color: #fff;
-}
 
 */
 /*------------------------*/
@@ -412,44 +380,54 @@ body {
 /*------------------------*/
 /*         service        */
 /*------------------------*/
-.service-title {
-    text-align: center;
-    padding: 20px 0;
-}
-
-.service-content {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;  
+.service {
+    margin-top: 5%;
 }
 
 .service-content_first,
 .service-content_second,
 .service-content_third,
 .service-content_fouth {
-    width: 40%;
-    padding-bottom: 1%;
+    display: flex;
+    padding-bottom: 2%;
+    /*width: 40%;
+    margin: 0 auto;*/
+    margin-left: 15%;
+    border-top: 1px solid black;
+    padding-top: 2%;
+    max-width: 73%;
 }
 
-.service-content_first,
-.service-content_third {
-    padding-right: 2%;
+.service-content_fouth {
+    border-bottom: 1px solid black;
+    padding-bottom: 2%;
+    max-width: 73%;
 }
 
-
-.service-btn {
-    display: block;
-    width: 280px;
-    height: 40px;
-    line-height: 40px;
-    background: rgb(202, 32, 32);
-    padding: 0 20px;
-    color: white;
-    text-align: center;
-    /*追記*/
-    margin: 0 auto;
-    border: 1px solid #fff;
+.service-img,
+.service-img_second,
+.service-img_third,
+.service-img_fouth {
+    width: 23%;
 }
+
+.service-content_inner,
+.service-content_inner-second,
+.service-content_inner-third,
+.service-content_inner-fouth {
+    width: 80%;
+    margin-left: 2%;
+}
+
+.service-h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.service-p {
+    font-size: 17px;
+}
+
 
 .yohaku {
     height: 50px;
@@ -459,7 +437,7 @@ body {
 /*         news           */
 /*------------------------*/
 .news {
-    background: rgb(37, 36, 36);
+    background: white;
     height: 300px;
     position: relative;
 }
@@ -496,8 +474,10 @@ body {
 }
 */
 .news-topic li{
-    border-bottom:1px solid #ccc;
+    /*border-bottom:1px solid #ccc;*/
     list-style:none;
+    border: 1px solid #000;
+    margin-bottom: 10px;
 }
 
 .news-topic a{
@@ -511,10 +491,13 @@ body {
 }
 
 .news-topic span{
-    color: #737373;
+    color: black;
     vertical-align: middle;
     display: inline-block;
     margin-right: 10px;
+    /*追記*/
+    margin-left: 10px;
+    font-size: 14px;
 }
 
 .news-topic p{
@@ -523,11 +506,14 @@ body {
     margin: 0;
     padding: 0;
     vertical-align: middle;
+    /*追記*/
+    font-weight: bold;
+    font-size: 14px;
 }
 
 .news-content {
     position: absolute;
-    width: 80%;
+    width: 90%;
     top: 50%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
@@ -547,18 +533,23 @@ body {
 .blog-content {
     display: flex;
     justify-content: center;
-    /*flex-wrap: wrap; */ 
+    flex-wrap: wrap; 
 }
 
 .blog-content_first,
 .blog-content_second,
-.blog-content_third {
+.blog-content_third,
+.blog-content_fouth,
+.blog-content_five,
+.blog-content_six {
     width: 25%;
     padding-bottom: 1%;
 }
 
 .blog-content_first,
-.blog-content_second {
+.blog-content_second,
+.blog-content_fouth,
+.blog-content_five {
     padding-right: 2%;
 }
 
@@ -570,6 +561,20 @@ body {
 .blog-p {
     font-size: 16px;
     font-weight: bold;
+}
+
+.service-btn {
+    display: block;
+    width: 280px;
+    height: 40px;
+    line-height: 40px;
+    background: rgb(202, 32, 32);
+    padding: 0 20px;
+    color: white;
+    text-align: center;
+    /*追記*/
+    margin: 0 auto;
+    border: 1px solid #fff;
 }
 
 /*------------------------*/
@@ -597,7 +602,6 @@ body {
 }
 
 .company-title {
-  color: white;
     font-size: 25px;
     position: absolute;
     top: 50%;
@@ -749,12 +753,7 @@ body {
   /*------------------------*/
   /*         service        */
   /*------------------------*/
-  .service-title {
-      text-align: center;
-      padding: 20px 0;
-      font-size: 30px;
-  }
-
+  /*
   .service-content {
       display: flex;
       justify-content: center;
@@ -768,6 +767,65 @@ body {
       width: 90%;
       padding-bottom: 2%;
   }
+  
+
+    .service-h3 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .service-p {
+        font-size: 17px;
+    }
+
+    .service {
+        margin-top: 5%;
+    }
+    */
+    
+    .service-content_first,
+    .service-content_second,
+    .service-content_third,
+    .service-content_fouth {
+        display: block;
+        padding-bottom: 2%;
+        /*width: 40%;
+        margin: 0 auto;*/
+        margin-left: 10%;
+        border-top: 1px solid black;
+        padding-top: 2%;
+        max-width: 80%;
+    }
+    
+    .service-content_fouth {
+        border-bottom: 1px solid black;
+        padding-bottom: 2%;
+        max-width: 80%;
+    }
+    
+    .service-img,
+    .service-img_second,
+    .service-img_third,
+    .service-img_fouth {
+        width: 100%;
+    }
+    
+    .service-content_inner,
+    .service-content_inner-second,
+    .service-content_inner-third,
+    .service-content_inner-fouth {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .service-h3 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    .service-p {
+        font-size: 16px;
+    }
 
   /*------------------------*/
   /*         blog           */
@@ -786,10 +844,15 @@ body {
   
   .blog-content_first,
   .blog-content_second,
-  .blog-content_third {
+  .blog-content_third,
+  .blog-content_fouth,
+  .blog-content_five,
+  .blog-content_six {
     width: 90%;
     padding-bottom: 2%;
   }
+
+  
 
   /*------------------------*/
   /*         footer         */
